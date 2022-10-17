@@ -1,3 +1,8 @@
+<?php
+	$title = 'Home';
+	$body_class = 'Home';
+?>
+
 <?php include 'header.php';?>
 
 <div id="main" class="hero">

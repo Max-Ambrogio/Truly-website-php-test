@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<title>Truly | Do it for the flavor</title>
+		<title>Truly | Do it for the flavor <?php echo $title;?> </title>
 		<meta name="description" content="" />
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="dist/css/main.css" />
 
 	</head>
-	<body>
+	<body class="<?php echo $body_class; ?>">
 		<header class="header">
 			<div class="logo">
 				<a href="index.php">
